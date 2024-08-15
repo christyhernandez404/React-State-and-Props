@@ -55,7 +55,7 @@ function MoviesList() {
                 <button onClick={addMovie}>Add Movie</button>
             </div>
 
-            <button onClick={toggleView}>Toggle View</button>
+            <button onClick={toggleView}>Toggle View - All or Sci Fi</button>
 
             <ul>
                 {movies.filter(movie => view === 'all' || movie.genre === 'Sci-Fi')
